@@ -1,0 +1,63 @@
+
+                <div class="footer-form-container">
+ 
+                   <h2>Kontaktformulär</h2>
+ 
+                   <p>Om ni har ett litet till medelstort företag/verksamhet/förening etc. så hjälper jag er 
+gärna med att
+ bygga en ny hemsida alternativt uppdatera en befintlig.
+  Jag arbetar med moderna tekniker
+ för att er hemsida ska bli:
+ 
+ </p>
+   <ul class="check-list">
+  <li>Responsiv - Så att sidan skalar om innehållet beroende 
+på vilken enhet besökaren använder.</li>
+ 
+ <li>Sökmotoroptimerad - Så att exempelvis Google lätt hittar er.</li>
+ 
+      <li>Lätt att skala upp om ni vill lägga till mer innehåll i framtiden.</li>
+   
+ <li>Lätt att underhålla.</li>
+  
+   </ul>
+  
+ <p>Använd gärna kontaktformuläret nedan och beskriv ert ärende kortfattat så svarar jag direkt med en offert.</p>
+
+ <form method="post" action="">
+  <label for="your-name">Ditt namn*</label>
+ 
+ <input id="your-name" name="customerName" placeholder="Ditt namn" required="" type="text">
+                        <label for="your-mail">Din E-postadress*</label>
+                        <input id="your-mail" name="customerMail" placeholder="Din E-postadress" required="" type="email">
+                        <label for="your-number">Ditt telefonnummer*</label>
+                        <input id="your-number" name="customerNumber" placeholder="Ditt telefonnummer" required="" type="number">
+                        <label for="your-business">Ditt ärende*</label>
+                        <textarea id="your-business" name="message" placeholder="Ditt ärende" required=""></textarea>
+                        <button type="submit" name="contact-me">Kontakta mig</button>
+                    </form>
+                    <p class="x-small-text">Jag är godkänd för F-Skatt</p>
+ 
+  </div>
+  
+
+-----------
+<section id="welcometext">
+        <header>Utbildningar</header>
+        <span>
+           <h4>Blekinge tekniska h&ouml;gskola 2010
+Webbutveckling II  Skriptspr&aring;k PHP (7.5 hp)</h4><br>
+Syftet med kursen var att man skapar interaktiva dynamiska webbplatser med server- och klient- script.
+<h4>Kvalificerad Yrkesutbildning (KY), Malm&ouml; 2004 - 2006
+Applikationsutveckling (100 hp)</h4><br>
+Genom denna utbildning f&aring;r man kunskaper och f&auml;rdigheter att skapa aff&auml;rsapplikationer av skilda
+slag, exempelvis databashantering, webbprogrammering och gr&auml;nssnittsprogrammering.
+<h4>Sevastopols nationella tekniska universitet, Sovjet Union 1979 - 1984</h4><br>
+Svenskh&ouml;gskoleverkets bed&ouml;mning:
+Utbildningen motsvarar till niv&aring; och omfattning svensk civilingenj&ouml;rsexamen.
+I utbildningen, som &auml;r inriktad mot datateknik och informationsteknologi, 
+ing&aring;r ett sj&auml;lvst&auml;ndigt examensarbete.
+            
+        </span>
+    </section>
+             

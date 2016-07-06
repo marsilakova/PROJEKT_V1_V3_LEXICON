@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+  <script  src="http://spelprogrammering.nu/simple.js">
+
+  //circle(100, 100, 20, "red");
+    var color = "red";
+    var size=20;
+  //var color1 = prompt("mata in första värdet mellan 0 - 255");
+  function update()
+  {	
+  	 if (mouse.left)
+     	{
+   	        //circle(mouse.x, mouse.y, 20, color);
+          	rectangle(mouse.x, mouse.y, size, 20, color)
+     	}
+            
+        	if(keyboard.y)
+          		color = "yellow";
+        	if(keyboard.b)
+         		 color = "blue";
+        	if(keyboard.g)
+          		color = "green";
+        	if(keyboard.x)
+          		color = "#AA33df";
+    		if(keyboard.s)
+          		color = mixColor(100,250,50);
+    		if(keyboard.enter)
+              clearScreen();// rensar du skärmen. 
+    if (mouse.right)
+     	{
+   	        circle(mouse.x, mouse.y, size, color="#5046DB");
+          	
+     	}
+  }                                           
+</script>  
+</head>
+
+
+
+<button onclick="savePickchure()">Spara bild</button>
+         <!--   <input type="submit" value="Spara" onclick="spara()"/>
+            <input type="button" id="canvas-clear" value="Rensa"/>-->
+<script type="text/javascript">
+
+function savePickchure()
+{
+    
+}
+
+</script>
+<p id="demo"></p>
+
+<!--script>
+function myFunction() {
+    var person = prompt("Please enter your name", "Harry Potter");
+    if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "Hello " + person + "! How are you today?";
+    }
+}
+</script>-->
+<!---------------->
+
+</body>
+</html>

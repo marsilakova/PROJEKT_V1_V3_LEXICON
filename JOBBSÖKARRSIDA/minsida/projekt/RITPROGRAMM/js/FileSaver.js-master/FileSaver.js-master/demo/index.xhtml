@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US-x-Hixie">
+<head>
+    <meta charset="utf-8"/>
+    <title>Ritprogramm</title>
+    <link rel="stylesheet" type="text/css" href="demo.css"/>
+</head>
+<body>
+   <!-- <h1><a href="https://github.com/eligrey/FileSaver.js">FileSaver.js</a> demo</h1>-->
+    
+    <section id="image-demo">
+        <h2>RITPROGRAMM</h2>
+        <canvas class="input" id="canvas" width="500" height="300"/>
+        <form id="canvas-options">
+        <script  src="http://spelprogrammering.nu/simple.js">
+
+                 //circle(100, 100, 20, "red");
+                var color = "red";
+                var size=20;
+                var color1 = prompt("mata in första värdet mellan 0 - 255");
+             function update()
+  {	
+                    if (mouse.left)
+                {    rectangle(mouse.x, mouse.y, size, 20, color) }
+                    
+                            if(keyboard.y)
+                                color = "yellow";
+                            if(keyboard.b)
+                                color = "blue";
+                            if(keyboard.g)
+                                color = "green";
+                            if(keyboard.x)
+                                color = "#AA33df";
+                            if(keyboard.s)
+                                color = mixColor(100,250,50);
+                            if(keyboard.enter)
+                            clearScreen();// rensar du skärmen. 
+                    if (mouse.right)
+                        { circle(mouse.x, mouse.y, size, color="#5046DB");                         
+                        }
+  }   
+  //-------------------
+  funktion spara()
+  {         var image = document.getElementById("img");
+                images.src= canvas.toDataUrl(); // тип такого
+  }
+                                            
+</script>  
+            <label>FilenamN: <input type="text" class="filename" id="canvas-filename" placeholder="doodle"/>.png</label>
+            <input type="submit" value="Spara" onclick="spara()"/>
+            <input type="button" id="canvas-clear" value="Rensa"/>
+        </form>
+    </section>
+    
+    
+    <script async="" src="https://cdn.rawgit.com/eligrey/Blob.js/0cef2746414269b16834878a8abc52eb9d53e6bd/Blob.js"/>
+    <script async="" src="https://cdn.rawgit.com/eligrey/canvas-toBlob.js/8316fb3ee6d67f68f44089a82ab87bf580d2a5e3/canvas-toBlob.js"/>
+    <script async="" src="https://cdn.rawgit.com/eligrey/FileSaver.js/62d219a0fac54b94cd4f230e7bfc55aa3f8dcfa4/FileSaver.js"/>
+    <script async="" src="https://cdn.rawgit.com/eligrey/FileSaver.js/702cd2e820b680f88a0f299e33085c196806fc52/demo/demo.js"/>
+</body>
+</html>

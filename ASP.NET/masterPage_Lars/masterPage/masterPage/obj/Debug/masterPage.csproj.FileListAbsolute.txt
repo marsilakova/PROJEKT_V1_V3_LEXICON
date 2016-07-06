@@ -1,0 +1,50 @@
+c:\users\lärare\documents\visual studio 2015\Projects\masterPage\masterPage\bin\roslyn\csc.exe
+c:\users\lärare\documents\visual studio 2015\Projects\masterPage\masterPage\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\lärare\documents\visual studio 2015\Projects\masterPage\masterPage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\lärare\documents\visual studio 2015\Projects\masterPage\masterPage\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\lärare\documents\visual studio 2015\Projects\masterPage\masterPage\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\lärare\documents\visual studio 2015\Projects\masterPage\masterPage\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\lärare\documents\visual studio 2015\Projects\masterPage\masterPage\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\lärare\documents\visual studio 2015\Projects\masterPage\masterPage\bin\roslyn\System.Collections.Immutable.dll
+c:\users\lärare\documents\visual studio 2015\Projects\masterPage\masterPage\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\lärare\documents\visual studio 2015\Projects\masterPage\masterPage\bin\roslyn\vbc.exe
+c:\users\lärare\documents\visual studio 2015\Projects\masterPage\masterPage\bin\roslyn\VBCSCompiler.exe
+c:\users\lärare\documents\visual studio 2015\Projects\masterPage\masterPage\bin\roslyn\VBCSCompiler.exe.config
+c:\users\lärare\documents\visual studio 2015\Projects\masterPage\masterPage\bin\masterPage.dll.config
+c:\users\lärare\documents\visual studio 2015\Projects\masterPage\masterPage\bin\masterPage.dll
+c:\users\lärare\documents\visual studio 2015\Projects\masterPage\masterPage\bin\masterPage.pdb
+c:\users\lärare\documents\visual studio 2015\Projects\masterPage\masterPage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\lärare\documents\visual studio 2015\Projects\masterPage\masterPage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\lärare\documents\visual studio 2015\Projects\masterPage\masterPage\obj\Debug\masterPage.csprojResolveAssemblyReference.cache
+c:\users\lärare\documents\visual studio 2015\Projects\masterPage\masterPage\obj\Debug\masterPage.dll
+c:\users\lärare\documents\visual studio 2015\Projects\masterPage\masterPage\obj\Debug\masterPage.pdb
+C:\Users\lärare\Documents\Visual Studio 2015\Projects\masterPage\masterPage\bin\MySql.Data.dll
+C:\Users\lärare\Documents\Visual Studio 2015\Projects\masterPage\masterPage\bin\MySql.Data.Entity.dll
+C:\Users\lärare\Documents\Visual Studio 2015\Projects\masterPage\masterPage\bin\MySql.Data.Entity.EF6.dll
+C:\Users\lärare\Documents\Visual Studio 2015\Projects\masterPage\masterPage\bin\MySql.Fabric.Plugin.dll
+C:\Users\lärare\Documents\Visual Studio 2015\Projects\masterPage\masterPage\bin\MySql.Web.dll
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\bin\roslyn\csc.exe
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\bin\roslyn\vbc.exe
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\bin\roslyn\VBCSCompiler.exe
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\bin\masterPage.dll.config
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\bin\masterPage.dll
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\bin\masterPage.pdb
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\bin\MySql.Data.dll
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\bin\MySql.Data.Entity.dll
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\bin\MySql.Data.Entity.EF6.dll
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\bin\MySql.Fabric.Plugin.dll
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\bin\MySql.Web.dll
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\obj\Debug\masterPage.csprojResolveAssemblyReference.cache
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\obj\Debug\masterPage.dll
+C:\Users\elev10\mittproject\ASP.NET\masterPage_Lars\masterPage\masterPage\obj\Debug\masterPage.pdb

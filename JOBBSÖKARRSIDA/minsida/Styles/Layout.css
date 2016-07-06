@@ -1,0 +1,422 @@
+﻿
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #390c0c;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+html,body{
+    height: 100%;
+	background:url(img3.jpg) no-repeat center center fixed;
+  /*webkit-background-size: cover;*/
+    background-size:100% 100%;
+   /*backface-visibility:visible;
+   padding:0px;*/
+
+}
+body {
+    height: 100%;
+   /* width: 1000px;*/
+    margin-left: 10%;
+    margin-right:10%;
+    font-family: Verdana;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    
+}
+
+@font-face {
+    font-family: headerfont;
+    src: url('../fonts/Lobster_1.3.otf');
+}
+
+header {
+    font-weight: bold;
+}
+
+.searchbox {
+    float: right;
+    padding: 5px;
+    margin: 10px 10px;
+    width: 200px;
+}
+
+.headerlogo {
+    float: left;
+    margin-right: 10px;
+}
+
+    .headerlogo > img {
+        height: 60px;
+        width: 60px;
+    }
+
+#headername {
+    font-size: 40px;
+    font-family: headerfont;
+    color: #603813;
+    padding: 15px;
+    margin: 8px 0px;
+    font-weight: bold;
+    /*font-variant: small-caps;*/
+}
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+nav {
+    height: 45px;
+    width: 100%;
+    /*background-color: #5c5045;*/
+    /*background: -webkit-linear-gradient(left, #603813, #341c05);*/ /* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(right, #603813, #341c05);*/ /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(right, #603813, #341c05);*/ /* For Firefox 3.6 to 15 */
+    /*background: linear-gradient(to right, #603813, #341c05);*/
+    margin-bottom: 5px;
+    margin-top: 20px;
+    padding-left: 5px;
+   
+}
+
+    nav ul {
+        list-style: none;
+        padding: 0px;
+    }
+
+        nav ul li {
+            display: block;
+        }
+
+.backgroundgradient {
+    background: -webkit-linear-gradient(left, #603813, #341c05); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #603813, #341c05); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #603813, #341c05); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #603813, #341c05);
+    color:#000000;
+    width:100%;
+    height:100px;
+    background-color:black;
+    position:static;
+    top: 50%;
+    top:20px;
+    opacity:0.75;
+    border-radius: 20px;
+    padding-left: 50px;
+    box-shadow: 10px 10px 5px #341c05;
+    box-sizing: border-box;
+   /* margin: auto;*/
+    margin-right: 20%;
+    
+}
+
+
+.navlink {
+    height: 35px;
+    margin-right: 10px;
+    font-size: 18px;
+    float: left;
+    padding-top: 27px;
+    color: #d1f908;
+    text-decoration: none;
+}
+
+   
+
+#welcomeimage {
+    float: left;
+    width: 700px;
+}
+
+#coffeeofthemonth {
+    float: right;
+    width: 290px;
+}
+
+#welcometext {
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    /*margin-left: 150px;
+    margin-right: 150px;*/
+    -webkit-column-count: 2;
+    column-count: 2;
+    background-color: rgba(255,255,255,0.5);
+    padding: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    box-shadow: 10px 10px 5px #341c05;
+    
+}
+
+    #welcometext > header {
+        color: #603813;
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 3px;
+    }
+
+#events {
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+    #events > header {
+        margin-left: 10px;
+        color: #603813;
+        font-size: 15px;
+        margin-bottom: 3px;
+        font-weight: bold;
+    }
+
+    #events > ul {
+        list-style: none;
+    }
+
+        #events > ul > li {
+            margin-bottom: 3px;
+        }
+        /**----------Buttom scroll to top---------------**/
+.cd-top.cd-is-visible{ /* the button becomes visible */
+    visibility: visible;
+    opacity: 1;
+}
+.cd-top.cd-fade-out{/* if the user keeps scrolling down,
+ the button is out of focus and becomes less visible */
+    opacity: .5;
+}
+/**---------------В нашем файле .js, мы определили три переменные
+ для управления "Вернуться к началу" ссылка внешний вид:
+
+ //browser window scroll (in pixels) after which the "back to top" link is shown 
+ var   offset   =   300 , 
+	 //browser window scroll (in pixels) after which the "back to top" 
+     //link opacity is reduced 
+	 offset_opacity   =   1200 , 
+	 //duration of the top scrolling animation (in ms) 
+	 scroll_top_duration   =   700 ; 
+
+offset переменная будет использоваться для переключения
+ класса .cd-is-visible ; offset_opacity , вместо того , 
+ чтобы добавить .cd-fade-out класса.
+Верхняя функция прокрутки реализована с использованием 
+JQuery .animate() метод, а также связанным с "Вернуться к началу" нажмите событие. 
+---------------------------------------------**/
+
+    
+
+   
+
+
+.addtocartbutton {
+    cursor: pointer;
+    padding: 4px 25px;
+    background: #603813;
+    border: 1px solid #381f09;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    -moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    box-shadow: 0 0 4px rgba(0,0,0, .75);
+    color: #f3f3f3;
+    font-size: 0.8em;
+    width: 80px;
+}
+
+    .addtocartbutton:hover, .addtocartbutton:focus {
+        background-color: #512c0a;
+        -webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+        -moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+        box-shadow: 0 0 1px rgba(0,0,0, .75);
+    }
+
+
+
+.smalltext {
+    font-size: 10px;
+}
+
+
+/*All coffees page styles*/
+.blockheader {
+    font-size: 30px;
+    font-family: headerfont;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+#map {
+    float: left;
+    width: 65%;
+    height: 600px;
+    margin: 25px;
+}
+
+#driving-directions {
+    float: left;
+}
+
+/*Checkout page*/
+.textlabel
+{
+	text-align: left;
+	font-size: 14px;
+	margin: 0px;
+    display: block;
+	width: 250px;
+	padding: 2px 5px;
+	float: left;
+}
+
+.textinput
+{
+	width: 300px;
+	height: 22px;
+	border: 1px solid #888888;
+}
+
+fieldset
+{
+	padding: 0px;
+	border: none;
+}
+
+fieldset > div
+{
+	border: 2px solid #888888;
+}
+
+
+li a:link{
+    color:#eca81f;
+}
+	
+
+/* visitid link*/
+li a:visited{
+   /* color:whitesmoke;*/
+}
+
+
+
+/*  mouse over link*/
+li a:hover{
+    color:black;
+}
+/*selected link*/
+li a:active{
+    color:aqua;
+}
+li{
+    float:left;
+}
+
+li a{
+
+    padding:28px;
+    text-decoration:solid;/**/
+    font-weight:bolder;
+}
+#inner{
+    width:initial;
+    margin:0 auto;
+}
+#body{
+    margin:0;
+    padding:0;
+    font-family:Arial,Arial, Helvetica, sans-serif;
+    font-size:10px;
+    cursor:default;
+    background:url(img3.jpg);
+    color:#000000;
+}
+#cont  { position:absolute;
+    top:0;
+    left:0;
+    z-index:70;
+    overflow:auto;
+}
+.Kontakt-info{
+   /** bordersolid 3px #055387; **/
+        width:35px; 
+        height:35px;
+       /** src="kontakt-info3.jpg"**/
+        float:right;
+        /**allt"Kontaktinformation";**/
+    
+}
+#kontakt{
+       height: 362px;
+        width: 541px;
+        padding: 10px;
+       text-align: left;
+        float:center;
+        border: 1px solid #cccccc;
+        border-radius: 10px;
+        margin-left: 25%;
+
+}
+#message{
+    width: 500px;
+}
+p{
+    margin-left: 20px;
+}
+#anv{
+   margin-left: 20px; 
+}
+ .button{
+     background-color: #3734CF;
+    
+    color: #0e0d0d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    cursor: pointer;
+ }   

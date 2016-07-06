@@ -1,0 +1,14 @@
+.menuField2  /* En inforuta*/
+{
+     position: absolute;
+     color: #FFFFFF;                
+     width: 150px; 
+     height: 150px;
+     background-color: #0000FF; 
+     top: 250px;
+     right: 300px;
+     opacity: 0.75; /* How tranparent the panel will be. 1 is not at all*/
+     box-shadow: 10px 10px 5px #888888;
+     padding: 20px;
+     border-radius: 1em;
+ }

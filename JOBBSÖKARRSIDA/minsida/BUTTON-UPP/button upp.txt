@@ -1,0 +1,69 @@
+button scroll-top
+<button class="scroll¨top" data-block="scroll-top" data-role="hide_on_popup"></button>
+---------
+element {
+}
+.button.scroll-top:hover, button.scroll-top:hover {
+    background-color: transparent;
+    opacity: 1;
+}
+button:hover, a.button:hover {
+    background-color: #348bcd;
+}
+.button.scroll-top, button.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-image: url(/assets/web/scroll-top-dc05f45165b0f28e17cf186e39a43990.svg);
+    background-color: transparent;
+    background-size: 62px 62px;
+    background-position: center center;
+    border-radius: 50%;
+    border: 2px solid #a2aeba;
+    opacity: 0.8;
+    -webkit-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+    z-index: 10;
+}
+.button:hover, button:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #348bcd;
+    border-color: #348bcd;
+}
+.button:focus, button:focus {
+    outline: 0;
+}
+button, a.button {
+    color: white;
+    font-weight: bold;
+    background-color: #05519d;
+}
+.button, button {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 38px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #05519d;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #05519d;
+    border-radius: 2px;
+    cursor: pointer;
+    -webkit-transition: all 200ms;
+    transition: all 200ms;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearanc
